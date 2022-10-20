@@ -1,14 +1,13 @@
 package ru.job4j;
 
 public class Calculate {
+        public static void plus(int first, int second) {
+        int result = first + second;
+        System.out.println(result);
+        }
+
         public static void main(String[] args) {
-            int age = 18;
-            System.out.println(age);
-            double lenght = 78.0332;
-            System.out.println(lenght);
-            boolean baby = true;
-            System.out.println(baby);
-            long bacteriumAmount = 969552987;
-            System.out.println(bacteriumAmount);
+        Calculate.plus(12, 34);
+        Calculate.plus(222, 88);
         }
 }
