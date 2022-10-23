@@ -11,14 +11,14 @@ public class MathCalculator {
 
     public static double diffAndFraction(double first, double second) {
         return diff(first, second)
-                + fract(first, second);
+                + fraction(first, second);
     }
 
     public static double globalSum(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
                 + diff(first, second)
-                + fract(first, second);
+                + fraction(first, second);
     }
 
     public static void main(String[] args) {
