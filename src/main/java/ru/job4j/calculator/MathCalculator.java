@@ -11,19 +11,19 @@ public class MathCalculator {
 
     public static double diffAndFraction(double first, double second) {
         return diff(first, second)
-                + fraction(first, second);
+                + fract(first, second);
     }
 
     public static double globalSum(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
                 + diff(first, second)
-                + fraction(first, second);
+                + fract(first, second);
     }
 
     public static void main(String[] args) {
-        System.out.println("Результат числа равен " + sumAndMultiply(15, 25));
-        System.out.println("Результат числа равен " + diffAndFraction(15, 25));
-        System.out.println("Результат числа равен " + globalSum(15, 25));
+        System.out.println("Результат числа равен " + sumAndMultiply(10, 20));
+        System.out.println("Результат числа равен " + diffAndFraction(10, 20));
+        System.out.println("Результат числа равен " + globalSum(10, 20));
     }
 }
