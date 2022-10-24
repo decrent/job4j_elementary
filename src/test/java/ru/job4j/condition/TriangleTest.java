@@ -19,7 +19,7 @@ class TriangleTest {
         int ab = 2;
         int ac = 1;
         int bc = 0;
-        boolean rsl = Triangle.exists(2, 1 ,0);
+        boolean rsl = Triangle.exists(2, 1, 0);
         assertThat(rsl).isFalse();
     }
 }
