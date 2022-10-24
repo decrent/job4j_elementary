@@ -10,7 +10,7 @@ class TriangleTest {
         int ab = 2;
         int ac = 2;
         int bc = 2;
-        boolean rsl = Triangle.exists(2,2,2);
+        boolean rsl = Triangle.exists(2, 2, 2);
         assertThat(rsl).isTrue();
     }
 
