@@ -36,7 +36,7 @@ class MaxTest {
     void whenMax15To15Then15() {
         int left = 15;
         int right = 15;
-        int expected =15;
+        int expected = 15;
         int rsl = Max.max(15, 15);
         assertThat(rsl).isEqualTo(expected);
     }
