@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 public class Games {
-    @SuppressWarnings("checkstyle:EmptyBlock")
+
     public static void permission(boolean allowByParent, boolean hasMoney) {
         if (allowByParent && hasMoney) {
             System.out.println("I can go to the computer club.");
