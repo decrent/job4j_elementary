@@ -6,11 +6,13 @@ public class Ifelse {
         int b = 11;
         int c = 13;
         if (a > b) {
-            System.out.println(a);
+            if (a > c) {
+                System.out.println(a);
+            } else {
+                System.out.println(c);
+            }
         } else if (b > c) {
             System.out.println(b);
-        } else if (a > c) {
-            System.out.println(a);
         } else {
             System.out.println(c);
         }
