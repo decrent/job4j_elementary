@@ -9,14 +9,20 @@ public class Counter {
         return sum;
     }
 
-    public static void main(String[] args) {
-        System.out.println(sum(0, 10));
-        System.out.println(sum(3, 8));
-        System.out.println(sum(1, 1));
-        System.out.println(sum(0, 5));
-        System.out.println(sum(10, 15));
-        System.out.println(sum(22, 43));
-        System.out.println(sum(25, 57));
-        System.out.println(sum(505, 505));
+    public static int sumByEven(int start, int finish) {
+        int sum = 0;
+        for (int i = start; i <= finish; i += 1) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
+        }
+        return sum;
+    }
+
+    public static int modulo(int number, int divider) {
+        while (number >= divider) {
+            number -= divider;
+        }
+        return number;
     }
 }
