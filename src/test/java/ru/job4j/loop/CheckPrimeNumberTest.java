@@ -39,10 +39,4 @@ public class CheckPrimeNumberTest {
         assertThat(result).isTrue();
     }
 
-    @Test
-    public void when197() {
-        int number = 197;
-        boolean result = CheckPrimeNumber.check(number);
-        assertThat(result).isTrue();
-    }
 }
