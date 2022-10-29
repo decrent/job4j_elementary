@@ -24,7 +24,7 @@ public class FindLoopTest {
 
     @Test
     public void whenArrayHas43Then7() {
-        int[] data = new int [] {1, 2, 3, 4, 7, 42, 12, 43, 35};
+        int[] data = new int[] {1, 2, 3, 4, 7, 42, 12, 43, 35};
         int el = 43;
         int result = FindLoop.indexOf(data, el);
         int expected = 7;
@@ -33,7 +33,7 @@ public class FindLoopTest {
 
     @Test
     public void whenArrayHas228Then3() {
-        int[] data = new int [] {23431, 657, 45, 228, 789, 3476, 1, 23, 5};
+        int[] data = new int[] {23431, 657, 45, 228, 789, 3476, 1, 23, 5};
         int el = 228;
         int result = FindLoop.indexOf(data, el);
         int expected = 3;
