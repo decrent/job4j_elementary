@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T08:05:31.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="6_rMrKpGFXXwzO9AQBi2" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T08:09:49.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="RG3B1wBVCoQST7aHfOLG" version="20.5.1" type="github">
   <diagram id="zUOd78d8kLE70ywTMAmB" name="Страница 1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
         <mxCell id="Dt5027v7Hb0-dLlWJPYE-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dt5027v7Hb0-dLlWJPYE-128" target="Dt5027v7Hb0-dLlWJPYE-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dt5027v7Hb0-dLlWJPYE-128" value="Загрузка прайс-листа: Ошибочных позиций нет" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Dt5027v7Hb0-dLlWJPYE-128" value="Ошибочных позиций нет" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="595" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dt5027v7Hb0-dLlWJPYE-140" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -96,7 +96,7 @@
         <mxCell id="Dt5027v7Hb0-dLlWJPYE-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dt5027v7Hb0-dLlWJPYE-143" target="Dt5027v7Hb0-dLlWJPYE-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dt5027v7Hb0-dLlWJPYE-143" value="Загрузка прайс-листа: отображение несоответствующих позиций" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Dt5027v7Hb0-dLlWJPYE-143" value="Отображение несоответствующих позиций" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dt5027v7Hb0-dLlWJPYE-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dt5027v7Hb0-dLlWJPYE-145" target="Dt5027v7Hb0-dLlWJPYE-128">
@@ -117,7 +117,7 @@
         <mxCell id="Dt5027v7Hb0-dLlWJPYE-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dt5027v7Hb0-dLlWJPYE-152" target="Dt5027v7Hb0-dLlWJPYE-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dt5027v7Hb0-dLlWJPYE-152" value="Загрузка прайс-листа: Ошибочные позиции не будут импортированы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Dt5027v7Hb0-dLlWJPYE-152" value="Ошибочные позиции не будут импортированы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dt5027v7Hb0-dLlWJPYE-155" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
