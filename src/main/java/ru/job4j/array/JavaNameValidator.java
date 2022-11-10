@@ -9,8 +9,6 @@ public class JavaNameValidator {
                 if (!isLowerLatinLetter(code) && !isSpecialSymbol(code) && !isUpperLatinLetter(code) && !Character.isDigit(code)) {
                     return false;
                 }
-            } else {
-                return false;
             }
         }
         return valid;
